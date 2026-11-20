@@ -1,5 +1,7 @@
 #header {
-    background-color: black;
+    align-items: center;
+
+    color: var(--gray-200);
     background-image: url(/style/assets/images/Background_Intro.png);
 
     #tags span{ 
