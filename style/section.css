@@ -1,0 +1,15 @@
+#header {
+    background-color: black;
+    background-image: url(/style/assets/images/Background_Intro.png);
+
+    #tags span{ 
+        background: var(--gray-200);
+        width: 114px;
+        height: 40px;
+
+    }
+
+  #tags span img {
+    width: 24px;
+  } 
+}

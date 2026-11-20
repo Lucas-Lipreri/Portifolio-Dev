@@ -21,4 +21,30 @@
     /* Text */
     --text-md: 16px/140% var(--text-font-family);
     --text-sm: 14px/140% var(--text-font-family);
+
+    /* color */
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C1CE;
+    --gray-300: #878EA1;
+}
+
+body {
+    width: 1366px;
+    justify-content: center;
+}
+
+h1 {
+    font: var(--title-lg);
+} 
+
+h2 {
+    font: var(--subtitle);
+}
+
+p {
+    font: var(--text-sm);
+}
+
+.color-red {
+    color: #E3646E;
 }
