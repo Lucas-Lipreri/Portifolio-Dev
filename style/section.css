@@ -1,17 +1,52 @@
+section {
+  position: relative;
+  min-width: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #header {
-    align-items: center;
+  .header-background {
+    background-image: url(assets/images/Background_Intro.png);
+  }
 
-    color: var(--gray-200);
-    background-image: url(/style/assets/images/Background_Intro.png);
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #tags span{ 
-        background: var(--gray-200);
-        width: 114px;
-        height: 40px;
+  #avatar {
+    width: 112px;
+    height: 112px;
+    position: relative;
+    display: inline-block;
 
+    #photo img {
+      display: block;
+      width: 88px;
+      border-radius: 50%;
     }
 
-  #tags span img {
-    width: 24px;
-  } 
+    #icon {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  #icon {
+    z-index: 1;
+    position: absolute;
+
+
+    width: 32px;
+    height: 32px;
+  }
+
+
 }

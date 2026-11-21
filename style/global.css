@@ -26,11 +26,16 @@
     --gray-100: #E2E4E9;
     --gray-200: #C0C1CE;
     --gray-300: #878EA1;
+
+    /* colors */
+    --main-red: #E3646E;
 }
 
 body {
-    width: 1366px;
+    width: 100%;
     justify-content: center;
+
+    color: var(--gray-200);
 }
 
 h1 {
@@ -46,5 +51,16 @@ p {
 }
 
 .color-red {
-    color: #E3646E;
+    color: var(--main-red);
 }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
